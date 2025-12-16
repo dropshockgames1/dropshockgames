@@ -8,7 +8,6 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center; /* Centers the #container */
 }
 
 a {
@@ -20,17 +19,19 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Container centered horizontally */
 #container {
     width: 760px;
-    margin: 0 auto; /* Centers container */
+    margin: 0 auto; /* centers container */
     border: 3px solid #00ffcc;
     background-color: #111111;
-    text-align: left; /* Revert content inside container to left-aligned */
+    text-align: left; /* content inside container aligns left by default */
 }
 
+/* Header box */
 #header {
     background-color: #000000;
-    text-align: center; /* Centers header content */
+    text-align: center; /* center text inside header */
     padding: 20px;
     border-bottom: 2px solid #00ffcc;
 }
@@ -45,7 +46,66 @@ a:hover {
     margin: 5px 0 0 0;
 }
 
+/* Navigation box */
 #nav {
     background-color: #111111;
-    text-align: center; /* Centers nav links */
-    padding: 10p
+    text-align: center; /* center nav links */
+    padding: 10px 0;
+    border-bottom: 2px solid #00ffcc;
+}
+
+#nav a {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Main content */
+#content {
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    border: 2px solid #00ffcc;
+    text-align: left; /* text inside content left-aligned for readability */
+}
+
+.section-title {
+    color: #ff0066;
+    font-size: 20px;
+    border-bottom: 1px dashed #00ffcc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#content ul {
+    padding-left: 20px; /* keep list indentation */
+    margin: 0 0 15px 0;
+}
+
+/* Footer box */
+#footer {
+    background-color: #000000;
+    text-align: center; /* center footer text */
+    padding: 10px;
+    font-size: 12px;
+    border-top: 2px solid #00ffcc;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff0066;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-co
