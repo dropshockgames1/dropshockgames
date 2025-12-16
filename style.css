@@ -3,65 +3,75 @@
 /* ============================= */
 
 body {
-    background-color: #111;
+    background-color: #000000;
     color: #00ffcc;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #000;
-    padding: 20px;
+a {
+    color: #ff0066;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+    border: 3px solid #00ffcc;
+    background-color: #111111;
+}
+
+#header {
+    background-color: #000000;
     text-align: center;
+    padding: 20px;
     border-bottom: 2px solid #00ffcc;
 }
 
-header h1 {
+#header h1 {
     margin: 0;
     font-size: 42px;
     letter-spacing: 2px;
 }
 
-nav {
-    background-color: #111;
-    padding: 10px 0;
+#nav {
+    background-color: #111111;
     text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #00ffcc;
 }
 
-nav a {
-    color: #ff0066;
-    text-decoration: none;
-    margin: 0 15px;
+#nav a {
+    margin: 0 10px;
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    max-width: 960px;
-    margin: 20px auto;
+#content {
     padding: 20px;
     line-height: 1.6;
     background-color: #1a1a1a;
     border: 2px solid #00ffcc;
 }
 
-h2.section-title {
+.section-title {
     color: #ff0066;
+    font-size: 20px;
     border-bottom: 1px dashed #00ffcc;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
-footer {
-    background-color: #000;
+#footer {
+    background-color: #000000;
     text-align: center;
     padding: 10px;
+    font-size: 12px;
     border-top: 2px solid #00ffcc;
-    font-size: 0.85em;
 }
 
 img {
@@ -90,5 +100,7 @@ img {
 }
 
 @keyframes blink {
-    50% { opacity: 0; }
+    50% {
+        opacity: 0;
+    }
 }
