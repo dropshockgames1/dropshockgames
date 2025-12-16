@@ -1,0 +1,94 @@
+/* ============================= */
+/* DropShock Games - Global CSS  */
+/* ============================= */
+
+body {
+    background-color: #111;
+    color: #00ffcc;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ffcc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #111;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ff0066;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    border: 2px solid #00ffcc;
+}
+
+h2.section-title {
+    color: #ff0066;
+    border-bottom: 1px dashed #00ffcc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #00ffcc;
+    font-size: 0.85em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Button style for links/buttons */
+.button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff0066;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #ff3399;
+}
+
+/* Blinking text effect */
+.blink {
+    animation: blink 1.5s step-start infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
