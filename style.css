@@ -1,6 +1,15 @@
 /* ============================= */
 /* DropShock Games - Global CSS  */
 /* ============================= */
+* {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    display: inline-block;
+    text-align: left; /* optional if you want bullets left-aligned */
+}
 
 body {
     background-color: #000000;
